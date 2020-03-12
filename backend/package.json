@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "ts-node-dev --project ./tsconfig.json ./src/index.ts",
+    "prod": "ts-node --project ./tsconfig.json ./src/index.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^13.9.0",
+    "apollo-server-express": "^2.11.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^14.6.0",
+    "mongoose": "^5.9.4",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "type-graphql": "^0.17.6",
+    "typescript": "^3.8.3"
+  }
+}
